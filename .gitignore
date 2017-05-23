@@ -4,3 +4,5 @@
 # can set their own DB settings
 
 config.php
+#editor conf
+.idea
