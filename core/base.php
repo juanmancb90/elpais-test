@@ -20,6 +20,11 @@ class base
         // if($this->db->connect_error) { ... }
     }
 
+    protected function create_query($query)
+    {
+        $sql = $this->db->query($query);
+        return $sql;
+    }
 
     protected function result_array( $result )
     {
